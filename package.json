@@ -1,0 +1,29 @@
+{
+  "name": "4chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start": "node dist /index.js",
+    "startx": "ts-node src/index.ts",
+    "devx": "nodemon --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarshthapa/4chain.git"
+  },
+  "author": "Adarsh Thapa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adarshthapa/4chain/issues"
+  },
+  "homepage": "https://github.com/adarshthapa/4chain#readme",
+  "devDependencies": {
+    "@types/node": "^14.6.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
